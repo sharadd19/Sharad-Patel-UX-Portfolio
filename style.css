@@ -205,7 +205,7 @@ footer {
 }
 
 button {
-    background-color: var(--clr-accent);
+    background-color: black;
     color: white;
     border-radius: 5px;
     border: none;
