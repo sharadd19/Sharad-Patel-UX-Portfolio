@@ -177,7 +177,7 @@ main {
 .project-links-my-anime-list {
     padding-top: 5px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr; /* 1fr 1fr; */
     gap: 0.5rem;
 }
 
