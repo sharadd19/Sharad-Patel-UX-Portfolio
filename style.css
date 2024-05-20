@@ -44,6 +44,12 @@ header {
     display: flex;
 }
 
+.final-design-images {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 header::before {
     content: "";
     position: absolute;
@@ -120,6 +126,10 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
+}
+
+br{
+    border: 1px solid black;
 }
 
 .card {
@@ -235,17 +245,140 @@ button:hover {
     filter: invert(100%);
 }
 
-.description {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-
 .monzo-image {
     display: flex;
     width: 500px;
     height: 500px;
     
+}
+.body
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.create-contract{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.create-contract-image { 
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: url(images/create\ contract.png) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.nuar-image {
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio:1/1;
+    background: url(images/nuar.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.acceptance-criteria-image {
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio: 7/4;
+    background: url(images/acceptance\ criteria.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: -100px;
+}
+.supply-chain-overview-image{
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: url(images/supply\ chain\ overview.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.user-stories-image {
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio: 7/4;
+    background: url(images/user\ stories.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.search-supply-chain-image {
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: url(images/create\ supply\ chain\ with\ search.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.manage-supply-chain-final-image{
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: url(images/manage\ supply\ chain\ final.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.edit-supply-chain-final-image{
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: url(images/edit\ supply\ chain\ final.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.create-supply-chain-final-image{
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: url(images/create\ supply\ chain\ final.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.create-supply-chain-2-final-image{
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: url(images/create\ supply\ chain\ 2\ final.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.current-information-architecture-image{
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio: 7/2;
+    background: url(images/current-information-architecture.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.new-information-architecture-image {
+    min-width: 180px;
+    width: 100%;
+    aspect-ratio: 7/2;
+    background: url(images/new-information-architecture.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.monzo-description {
+    display: flex;
+    gap: 30px;
+
+}
+
+.monzo-introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 [class$="page"] {
