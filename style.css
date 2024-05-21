@@ -352,34 +352,6 @@ button:hover {
     background-position: center;
 
 }
-.current-information-architecture-image{
-    min-width: 180px;
-    width: 100%;
-    aspect-ratio: 7/2;
-    background: url(images/current-information-architecture.png) no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-.new-information-architecture-image {
-    min-width: 180px;
-    width: 100%;
-    aspect-ratio: 7/2;
-    background: url(images/new-information-architecture.png) no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-.monzo-description {
-    display: flex;
-    gap: 30px;
-
-}
-
-.monzo-introduction {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
 
 [class$="page"] {
     display: grid;
@@ -428,10 +400,7 @@ h3 > a:hover {
     font-size: 20px;
 }
 
-.caption{
-    display: flex;
-    justify-content: center;
-}
+
 
 @media (max-width: 700px) {
     .header-about .links {
