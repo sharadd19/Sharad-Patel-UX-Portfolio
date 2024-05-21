@@ -36,7 +36,6 @@ body {
     flex-direction: column;
     gap: 2rem;
     background-color: var(--clr-white);
-    border: 1px solid black;
     padding: 3rem;
 }
 .monzo-description {
